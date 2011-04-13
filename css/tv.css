@@ -1,0 +1,80 @@
+/* tables */
+
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#filepath {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+pre {
+	font-family: "Courier New", Courier, monospace;
+
+	font-size: 14px;
+	width: 100%;
+}
+h1 {
+		
+	font-size: 20px;
+	color: #4D4D4D;
+}
+h3 {
+	font-size: 16px;	
+
+	color: #3D3D3D;
+}
+th {
+	text-align: left;
+	padding: 5px;
+	background-color: #6E6E6E;
+}
+td {
+	color: #FFF;
+	padding: 5px;
+}
+table {
+	font-size: 12px;
+	background-color: #4D4D4D;
+	width: 900px;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+.even {
+	background-color: #3D3D3D;
+}
+.odd {
+	background-color: #6E6E6E;
+}
+.highlight {
+	background-color: #3D3D3D;
+	font-weight: bold;
+}
+thead tr th{
+	background-image: url(../img/header-bg.png);
+	background-repeat: repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;
+	padding-left: 10px;
+	padding-top: 8px;
+	height: auto;
+}
+.episode {
+padding-left: 60px;
+}
+.season {
+padding-left: 30px;
+background-image: url(../img/header-bg.png);
+background-repeat: repeat;
+color: black;
+}
+
+.show {
+	background-image: url(../img/header-bg.png);
+	background-repeat: repeat;
+	color: black;
+}
